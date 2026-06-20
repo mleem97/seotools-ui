@@ -6,7 +6,7 @@ import RobotsTxtGenerator from "@/components/RobotsTxtGenerator";
 export default function Home() {
   const [copiedCmd, setCopiedCmd] = useState(false);
 
-  const installCommand = "mkdir -p components && curl -sS https://raw.githubusercontent.com/mleem97/lnxr-robotsgen-ui/main/components/RobotsTxtGenerator.tsx -o components/RobotsTxtGenerator.tsx";
+  const installCommand = "mkdir -p components && curl -sS https://raw.githubusercontent.com/mleem97/seotools-ui/main/components/RobotsTxtGenerator.tsx -o components/RobotsTxtGenerator.tsx";
 
   const handleCopyCmd = () => {
     navigator.clipboard.writeText(installCommand);
@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/mleem97/lnxr-robotsgen-ui"
+              href="https://github.com/mleem97/seotools-ui"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs font-mono uppercase tracking-wider text-zinc-400 hover:text-zinc-200 transition-colors flex items-center gap-1.5 py-1 px-2.5 rounded hover:bg-zinc-900 border border-zinc-800"
@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="flex items-center gap-2 overflow-hidden w-full pr-4">
                   <span className="text-zinc-600 font-mono text-xs select-none">$</span>
                   <span className="text-[10px] sm:text-xs font-mono text-zinc-300 truncate select-all">
-                    pnpm dlx gh-install mleem97/lnxr-robotsgen-ui
+                    pnpm dlx gh-install mleem97/seotools-ui
                   </span>
                 </div>
                 <button
@@ -226,7 +226,7 @@ export default function Home() {
               Pinkbot ist als eigenständige React-Komponente gebaut. Du kannst ihn in eigene Tools, Kundenbereiche oder interne Dashboards einbauen. Die gesamte Validierungslogik läuft direkt clientseitig.
             </p>
             <div className="text-[10px] font-mono text-zinc-500">
-              Check out <a href="https://github.com/mleem97/lnxr-robotsgen-ui" className="text-pink-500 hover:underline">CONTRIBUTING.md</a> for setup.
+              Check out <a href="https://github.com/mleem97/seotools-ui" className="text-pink-500 hover:underline">CONTRIBUTING.md</a> for setup.
             </div>
           </div>
 

@@ -28,7 +28,7 @@ A premium, standalone React and Next.js component designed for integration into 
 Create the file and fetch the source code directly using this command in your project directory:
 
 ```bash
-mkdir -p components && curl -sS https://raw.githubusercontent.com/mleem97/lnxr-robotsgen-ui/main/components/RobotsTxtGenerator.tsx -o components/RobotsTxtGenerator.tsx
+mkdir -p components && curl -sS https://raw.githubusercontent.com/mleem97/seotools-ui/main/components/RobotsTxtGenerator.tsx -o components/RobotsTxtGenerator.tsx
 ```
 
 ### Method 2: Manual Installation

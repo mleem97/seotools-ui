@@ -170,7 +170,7 @@ export default function RobotsTxtGenerator({
     const installPrompt = `Create a file at \`components/RobotsTxtGenerator.tsx\` in my React/Next.js project and write the self-contained Robots.txt Studio component. You can fetch its complete source code directly using this command:
 
 \`\`\`bash
-mkdir -p components && curl -sS https://raw.githubusercontent.com/mleem97/lnxr-robotsgen-ui/main/components/RobotsTxtGenerator.tsx -o components/RobotsTxtGenerator.tsx
+mkdir -p components && curl -sS https://raw.githubusercontent.com/mleem97/seotools-ui/main/components/RobotsTxtGenerator.tsx -o components/RobotsTxtGenerator.tsx
 \`\`\`
 
 Once created, explain how I can import and render <RobotsTxtGenerator /> in my layout or page files.`;
