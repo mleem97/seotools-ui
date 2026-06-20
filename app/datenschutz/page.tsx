@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Datenschutz() {
   return (
-    <div className="relative min-h-screen bg-zinc-950 text-zinc-350 flex flex-col font-sans selection:bg-pink-500 selection:text-white">
+    <div className="relative min-h-screen bg-zinc-950 text-zinc-300 flex flex-col font-sans selection:bg-pink-500 selection:text-white">
       {/* Header */}
       <header className="border-b border-zinc-900 bg-zinc-950/80 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -41,55 +41,94 @@ export default function Datenschutz() {
 
         <section className="space-y-6 text-xs sm:text-sm leading-relaxed text-zinc-400 font-mono">
           <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">1. Datenschutz auf einen Blick</h2>
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">1. Verantwortlicher</h2>
             <p>
-              <strong>Allgemeine Hinweise:</strong> Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.
-            </p>
-            <p>
-              <strong>Datenerfassung auf dieser Website:</strong> Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen. Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).
-            </p>
-          </div>
-
-          <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">2. Allgemeine Hinweise und Pflichtinformationen</h2>
-            <p>
-              <strong>Hinweis zur verantwortlichen Stelle:</strong> Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+              Verantwortlich für die Verarbeitung personenbezogener Daten im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
             </p>
             <p className="text-zinc-300">
-              Meyer Media<br />
-              Inhaber: Marvin Lee Meyer<br />
-              [Musterstraße 123]<br />
-              [12345 Hamburg]<br />
-              E-Mail: [info@meyermedia.de]
+              Marvin Lee Meyer<br />
+              handelnd unter Meyer Media<br />
+              Am Friedrich-Ebert-Park 1a<br />
+              31157 Sarstedt<br />
+              Deutschland
             </p>
-            <p>
-              Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+            <p className="text-zinc-350">
+              E-Mail: info@animusfound.com<br />
+              Telefon: 05066 6955783
+            </p>
+            <p className="text-zinc-400 text-xs">
+              seotools-ui ist ein Projekt von Meyer Media.
+            </p>
+            <p className="text-zinc-400 text-xs">
+              Lunexor ist eine Marke von Meyer Media und übernimmt als technischer Geschäftsbereich die Betreuung, Bereitstellung und technische Weiterentwicklung dieses Webauftritts.
             </p>
           </div>
 
           <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">3. Datenerfassung auf unserer Website</h2>
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">2. Allgemeine Hinweise zur Datenverarbeitung</h2>
             <p>
-              <strong>Server-Log-Dateien:</strong> Der Provider der Seiten erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+              Wir verarbeiten personenbezogene Daten ausschließlich im Rahmen der geltenden Datenschutzvorschriften, insbesondere der DSGVO, des Bundesdatenschutzgesetzes (BDSG) und des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG).
+            </p>
+            <p>
+              Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dazu können insbesondere Name, Anschrift, E-Mail-Adresse, Telefonnummer, IP-Adresse, Vertragsdaten, Kommunikationsdaten, Zahlungsdaten, steuerliche Angaben, Künstlernamen, Release-Daten, technische Nutzungsdaten und sonstige Angaben gehören, die Sie uns übermitteln oder die bei Nutzung unserer Dienste entstehen.
+            </p>
+            <p>
+              Diese Datenschutzerklärung richtet sich insbesondere an Besucherinnen und Besucher unserer Website, Privatpersonen, Interessenten, Kunden, Selbstständige, Einzelunternehmer, B2B-Kontakte, Künstlerinnen und Künstler, Musiker, Produzenten, Rechteinhaber, Vertragspartner, Lieferanten, Dienstleister und sonstige Geschäftspartner.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">3. Zwecke und Rechtsgrundlagen der Verarbeitung</h2>
+            <p>
+              Wir verarbeiten personenbezogene Daten insbesondere zur Bereitstellung und zum technischen Betrieb der Website, zum Schutz vor Missbrauch, Spam und Angriffen, zur Bearbeitung von Kontaktanfragen, zur Kommunikation mit Interessenten, Kunden, Künstlern und Geschäftspartnern, zur Prüfung von Demo-Einsendungen, zur Durchführung vorvertraglicher Maßnahmen, zur Vertragsabwicklung, zur Musikdistribution, zur Rechteverwaltung, zur Abrechnung, zur Buchhaltung, zur Rechnungsstellung, zur Zahlungsabwicklung, zur Erfüllung gesetzlicher Pflichten sowie zur Nachweisführung und Rechtsverteidigung.
+            </p>
+            <p>
+              Die Verarbeitung erfolgt je nach Zweck auf Grundlage von:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-zinc-350">
-              <li>Browsertyp und Browserversion</li>
-              <li>Verwendetes Betriebssystem</li>
-              <li>Referrer URL (die zuvor besuchte Seite)</li>
-              <li>Hostname des zugreifenden Rechners</li>
-              <li>Uhrzeit der Serveranfrage</li>
-              <li>IP-Adresse (ggf. in anonymisierter Form)</li>
+              <li><strong>Art. 6 Abs. 1 lit. a DSGVO</strong> bei Einwilligung,</li>
+              <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> bei Vertragserfüllung oder vorvertraglichen Maßnahmen,</li>
+              <li><strong>Art. 6 Abs. 1 lit. c DSGVO</strong> bei gesetzlichen Verpflichtungen,</li>
+              <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> bei berechtigten Interessen.</li>
             </ul>
             <p>
-              Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.
+              Unsere berechtigten Interessen liegen insbesondere im sicheren und stabilen Betrieb unserer Website, in der effizienten Kommunikation, in der Bearbeitung von Anfragen, in der Organisation unserer Geschäftsprozesse, im Schutz vor Missbrauch und Angriffen, in der Durchsetzung und Verteidigung rechtlicher Ansprüche sowie in der wirtschaftlichen Weiterentwicklung unserer Dienstleistungen.
             </p>
           </div>
 
           <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">4. Ihre Rechte</h2>
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">4. Rechte betroffener Personen</h2>
             <p>
-              Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
+              Sie haben nach Maßgabe der DSGVO folgende Rechte:
             </p>
+            <ul className="list-disc pl-5 space-y-1 text-zinc-350">
+              <li>Auskunftsrecht (Art. 15 DSGVO)</li>
+              <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+              <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+              <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+              <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
+              <li>Widerspruchsrecht (Art. 21 DSGVO)</li>
+              <li>Widerrufsrecht (Art. 7 Abs. 3 DSGVO)</li>
+              <li>Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)</li>
+            </ul>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">5. Speicherdauer</h2>
+            <p>
+              Wir speichern personenbezogene Daten nur so lange, wie dies für den jeweiligen Zweck erforderlich ist. Die Dauer richtet sich insbesondere nach der Dauer der Anfragebearbeitung, der Dauer der Vertragsbeziehung, gesetzlichen Aufbewahrungspflichten, Nachweis- und Dokumentationsinteressen, Verjährungsfristen sowie Sicherheits- und Missbrauchsprävention.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">6. Datensicherheit</h2>
+            <p>
+              Wir treffen technische und organisatorische Maßnahmen, um personenbezogene Daten gegen Verlust, Zerstörung, Manipulation, unbefugten Zugriff und unberechtigte Offenlegung zu schützen. Dazu gehören verschlüsselte Übertragung, Zugriffsbeschränkungen, Passwortschutz und regelmäßige Prüfung technischer Systeme.
+            </p>
+          </div>
+
+          <div className="pt-4 border-t border-zinc-900 text-zinc-550 text-[10px]">
+            Stand: Juni 2026
           </div>
         </section>
       </main>

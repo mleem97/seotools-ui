@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Impressum() {
   return (
-    <div className="relative min-h-screen bg-zinc-950 text-zinc-350 flex flex-col font-sans selection:bg-pink-500 selection:text-white">
+    <div className="relative min-h-screen bg-zinc-950 text-zinc-300 flex flex-col font-sans selection:bg-pink-500 selection:text-white">
       {/* Header */}
       <header className="border-b border-zinc-900 bg-zinc-950/80 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -41,40 +41,118 @@ export default function Impressum() {
 
         <section className="space-y-6 text-xs sm:text-sm leading-relaxed text-zinc-400 font-mono">
           <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">Angaben gemäß § 5 TMG</h2>
-            <p className="text-zinc-300">
-              Meyer Media<br />
-              Inhaber: Marvin Lee Meyer<br />
-              [Musterstraße 123]<br />
-              [12345 Hamburg]
-            </p>
-          </div>
-
-          <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">Kontakt</h2>
-            <p className="text-zinc-300">
-              Telefon: [Telefonnummer]<br />
-              E-Mail: [info@meyermedia.de]
-            </p>
-          </div>
-
-          <div className="space-y-2">
-            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Angaben gemäß § 5 DDG</h2>
             <p className="text-zinc-300">
               Marvin Lee Meyer<br />
-              [Musterstraße 123]<br />
-              [12345 Hamburg]
+              handelnd unter Meyer Media<br />
+              Am Friedrich-Ebert-Park 1a<br />
+              31157 Sarstedt<br />
+              Deutschland
             </p>
           </div>
 
-          <div className="space-y-2 pt-4 border-t border-zinc-900">
-            <h2 className="text-white text-xs uppercase tracking-wider text-zinc-500">Haftungsausschluss (Disclaimer)</h2>
-            <div className="space-y-4 text-[11px] text-zinc-550 leading-normal">
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Kontakt</h2>
+            <p className="text-zinc-300">
+              Telefon: 05066 6955783<br />
+              E-Mail: info@animusfound.com
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+            <p className="text-zinc-300">
+              Marvin Lee Meyer<br />
+              Am Friedrich-Ebert-Park 1a<br />
+              31157 Sarstedt<br />
+              Deutschland
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Unternehmensangaben</h2>
+            <p className="text-zinc-300">
+              Unternehmensform: Einzelunternehmen<br />
+              Unternehmensbezeichnung: Meyer Media
+            </p>
+            <p className="text-zinc-400 text-xs">
+              <strong>Tätigkeit:</strong> IT-, Hosting-, Beratungs-, Design-, Vertriebs- und Marketingdienstleistungen, Content-Creation sowie Online-Vertrieb von Tonträgern und Merchandising-Artikeln.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Marken und Projekte</h2>
+            <p className="text-zinc-300">
+              seotools-ui ist ein Projekt von Meyer Media.
+            </p>
+            <p className="text-zinc-350">
+              Lunexor ist eine Marke von Meyer Media und betreut diesen Webauftritt technisch im Auftrag von Meyer Media.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Zuständige Kammer</h2>
+            <p className="text-zinc-300">
+              Industrie- und Handelskammer Hannover<br />
+              Bischofsholer Damm 91<br />
+              30173 Hannover<br />
+              Internet: <a href="https://www.ihk.de/hannover" target="_blank" rel="noopener noreferrer" className="text-pink-400 hover:underline">www.ihk.de/hannover</a>
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Umsatzsteuer</h2>
+            <p className="text-zinc-400">
+              Meyer Media nimmt die Kleinunternehmerregelung gemäß § 19 UStG in Anspruch. Es wird keine Umsatzsteuer ausgewiesen.
+            </p>
+            <p className="text-zinc-400">
+              Eine Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG wurde noch nicht erteilt. Eine Wirtschafts-Identifikationsnummer wurde noch nicht erteilt.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Musiklabel / Tonträgerhersteller</h2>
+            <p className="text-zinc-300">
+              Label / Imprint: Meyer Media<br />
+              GVL-Labelcode: LC 103334 – seotools-ui
+            </p>
+            <p className="text-zinc-400 text-xs">
+              <strong>Tätigkeitsbereich:</strong> Tonträgerherstellung, Musikdistribution, Musikveröffentlichung und damit verbundene digitale Dienstleistungen.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Zuständige Verwertungsgesellschaft</h2>
+            <p className="text-zinc-300">
+              GVL Gesellschaft zur Verwertung von Leistungsschutzrechten mbH<br />
+              Podbielskiallee 64<br />
+              14195 Berlin<br />
+              Internet: <a href="https://www.gvl.de" target="_blank" rel="noopener noreferrer" className="text-pink-400 hover:underline">www.gvl.de</a>
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Verbraucherstreitbeilegung</h2>
+            <p className="text-zinc-400">
+              Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+            </p>
+          </div>
+
+          <div className="space-y-4 pt-4 border-t border-zinc-900">
+            <h2 className="text-white text-xs uppercase tracking-wider text-zinc-500 font-bold">Rechtliche Hinweise</h2>
+            
+            <div className="space-y-3 text-[11px] text-zinc-500">
               <p>
-                <strong>Haftung für Inhalte:</strong> Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+                <strong>Haftung für eigene Inhalte:</strong> Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Eine Verpflichtung zur Überwachung übermittelter oder gespeicherter fremden Informationen besteht nur im Rahmen der gesetzlichen Vorschriften.
               </p>
               <p>
-                <strong>Haftung für Links:</strong> Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+                <strong>Haftung für externe Links:</strong> Diese Website enthält Links zu externen Websites Dritter. Auf die Inhalte dieser externen Websites haben wir keinen Einfluss. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Bei Bekanntwerden rechtswidriger Inhalte werden entsprechende Links unverzüglich entfernt.
+              </p>
+              <p>
+                <strong>Urheberrecht:</strong> Die auf dieser Website veröffentlichten Inhalte, insbesondere Texte, Grafiken, Logos, Bilder, Audio- und Videoinhalte sowie sonstige Werke, unterliegen dem deutschen Urheberrecht. Inhalte von Meyer Media, seotools-ui, Lunexor oder deren Lizenzgebern dürfen ohne vorherige schriftliche Zustimmung nicht vervielfältilt, bearbeitet, verbreitet oder anderweitig verwertet werden, soweit dies nicht gesetzlich erlaubt ist.
+              </p>
+              <p>
+                <strong>Technische Bereitstellung:</strong> Die technische Bereitstellung dieses Webauftritts erfolgt grundsätzlich über eigene bzw. selbst verwaltete Infrastruktur. Für DNS, Sicherheits- und Netzwerkfunktionen wird Cloudflare genutzt. Soweit im Einzelfall externe Dienstleister für Hosting, Deployment, DNS, Sicherheit, E-Mail oder sonstige technische Leistungen eingesetzt werden, werden diese in der Datenschutzerklärung benannt.
               </p>
             </div>
           </div>
