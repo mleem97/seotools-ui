@@ -127,7 +127,7 @@ export default function Home() {
           </p>
 
           {/* Clean Installation Block */}
-          <div className="pt-2 max-w-lg">
+          <div className="pt-2 max-w-lg space-y-2">
             <div className="bg-zinc-950 border border-zinc-850 rounded-lg p-2 pl-3.5 pr-2 flex items-center justify-between text-left group hover:border-zinc-800 transition-colors">
               <div className="flex items-center gap-2.5 overflow-hidden w-full pr-4">
                 <span className="text-zinc-600 font-mono text-xs select-none">$</span>
@@ -155,6 +155,14 @@ export default function Home() {
                 )}
               </button>
             </div>
+            
+            {/* 100% Client-Side Privacy Badge */}
+            <p className="text-[9px] text-zinc-500 font-mono flex items-center gap-1.5 px-1">
+              <svg className="w-3.5 h-3.5 text-pink-500/80 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              <span>100% Client-Side: Keine Serverdaten-Speicherung. Alles verbleibt lokal in Ihrem Browser.</span>
+            </p>
           </div>
         </section>
 

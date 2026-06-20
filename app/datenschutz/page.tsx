@@ -40,6 +40,17 @@ export default function Datenschutz() {
         </div>
 
         <section className="space-y-6 text-xs sm:text-sm leading-relaxed text-zinc-400 font-mono">
+          {/* Prominent Local Processing Notice */}
+          <div className="p-4 bg-pink-950/20 border border-pink-900/40 rounded-lg space-y-2">
+            <h3 className="text-white text-xs uppercase tracking-wider text-pink-400 font-bold flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-pink-500 animate-pulse" />
+              Sicherheits- & Datenschutz-Garantie: 100% Lokal
+            </h3>
+            <p className="text-[11px] text-zinc-400 leading-relaxed">
+              Dieses Tool speichert <strong>keine</strong> Daten auf unseren Servern und soll dies auch in Zukunft nicht tun. Sämtliche Konfigurationen, Importe und Einstellungen verbleiben ausschließlich im Arbeitsspeicher (RAM) bzw. dem lokalen Speicher (Local Storage) Ihres eigenen Browsers. Die Verarbeitung findet vollständig clientseitig auf Ihrem Endgerät statt.
+            </p>
+          </div>
+
           <div className="space-y-2">
             <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">1. Verantwortlicher</h2>
             <p>
