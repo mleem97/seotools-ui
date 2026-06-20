@@ -55,15 +55,15 @@ export default function Home() {
         <section className="space-y-4 max-w-2xl">
           <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-zinc-900 border border-zinc-800 text-zinc-400 text-[9px] font-mono uppercase tracking-wider">
             <span className="w-1.5 h-1.5 rounded-full bg-pink-500" />
-            <span>Standalone React Component</span>
+            <span>Developer SEO Utilities</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-none">
-            Robots.txt without the guesswork.
+            SEO tools without the bloat.
           </h1>
           
           <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-xl">
-            A minimal, client-side Robots.txt utility. Visual rules configuration, path validator testing, and Sitemap declarations in a self-contained component.
+            A modular collection of developer-focused SEO utilities. Embeddable, self-contained React components designed for search visibility, crawler control, and audits.
           </p>
 
           {/* Clean Installation Block */}
@@ -90,7 +90,7 @@ export default function Home() {
                   </svg>
                 ) : (
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 002 2h2a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
                   </svg>
                 )}
               </button>
@@ -99,7 +99,13 @@ export default function Home() {
         </section>
 
         {/* The Generator Component */}
-        <section className="relative z-10 animate-scale-in">
+        <section className="relative z-10 animate-scale-in space-y-4">
+          <div className="flex items-center justify-between border-b border-zinc-900 pb-3">
+            <h2 className="text-xs font-mono uppercase tracking-wider text-zinc-400 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-pink-500 animate-pulse" />
+              Tool Showcase: Robots.txt Generator
+            </h2>
+          </div>
           <RobotsTxtGenerator />
         </section>
 

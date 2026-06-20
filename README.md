@@ -1,12 +1,18 @@
-# Robots.txt Studio 🤖
+# seotools-ui 🛠️
 
-[![License: MIT](https://img.shields.Drawing.co.uk/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![React 19](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black.svg)](https://nextjs.org)
 [![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8.svg)](https://tailwindcss.com)
 [![Package Manager: pnpm](https://img.shields.io/badge/pnpm-11-orange.svg)](https://pnpm.io)
 
-A premium, standalone React and Next.js component designed for integration into custom UI systems and admin dashboards. Create, test, and generate SEO-compliant `robots.txt` files directly in your client application with zero backend dependencies.
+A premium collection of modular, standalone React and Next.js SEO components designed for integration into custom UI systems and admin dashboards. Manage, validate, and optimize search-visibility assets directly in your client application with zero backend dependencies.
+
+---
+
+## Featured Component: Robots.txt Generator & Validator
+
+A client-side Robots.txt builder featuring visual rule editors, AI scraper blockers, live path validation, and dynamic sitemap management.
 
 ---
 
