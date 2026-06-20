@@ -55,7 +55,7 @@ export default function Impressum() {
             <h2 className="text-white text-sm uppercase tracking-wider text-pink-400 font-bold">Kontakt</h2>
             <p className="text-zinc-300">
               Telefon: 05066 6955783<br />
-              E-Mail: info@animusfound.com
+              E-Mail: info@meyermedia.eu
             </p>
           </div>
 

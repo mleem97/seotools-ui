@@ -53,7 +53,7 @@ export default function Datenschutz() {
               Deutschland
             </p>
             <p className="text-zinc-350">
-              E-Mail: info@animusfound.com<br />
+              E-Mail: info@meyermedia.eu<br />
               Telefon: 05066 6955783
             </p>
             <p className="text-zinc-400 text-xs">
